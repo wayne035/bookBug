@@ -86,9 +86,12 @@ export default function page() {
             ))
           }
         </div>
-        <footer className="md:px-5 md:text-[18px]">
-          © 2024 All Rights Reserved. Designed By Wayne
-        </footer>
+        <div className="w-full flex justify-center">
+          <footer className=" md:px-5 md:text-[18px]">
+            © 2024 All Rights Reserved. Designed By Wayne
+          </footer>
+        </div>
+
       </div>
     </>
   )
