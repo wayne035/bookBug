@@ -58,8 +58,8 @@ export default function page() {
             />
           </div>
           <nav className="w-[1100px] flex justify-evenly">
-            <button onClick={()=>sortData('MaxToMin')}>價格(大~小)</button>
-            <button onClick={()=>sortData('MinToMax')}>價格(小~大)</button>
+            <button onClick={()=>sortData('MaxToMin')}>價格(大)</button>
+            <button onClick={()=>sortData('MinToMax')}>價格(小)</button>
             <button onClick={()=>setFilter('')}>全部書店</button>
             <button onClick={()=>setFilter('TAAZE讀冊生活')}>讀冊生活</button>
             <button onClick={()=>setFilter('博客來')}>博客來</button>
